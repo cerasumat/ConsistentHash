@@ -11,5 +11,5 @@ Unit Test illustrate the usage of this library.
 
 Notice:
 ==
-* 1:The router should not be static or singleton;
+* 1:The router could be static or singleton, but need update for nodes status changes;
 * 2:The router should be instance by current nodes status;

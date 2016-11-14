@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsistentHash", "ConsistentHash.csproj", "{A825D86A-5C07-4DD6-9760-38DF49A81BE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsistentHashTest", "ConsistentHashTest\ConsistentHashTest.csproj", "{80F7652A-B531-4AF2-95B7-975B50A49327}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2D146386-3FA9-4B5D-908D-9E62EFAF8DEB}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A825D86A-5C07-4DD6-9760-38DF49A81BE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A825D86A-5C07-4DD6-9760-38DF49A81BE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A825D86A-5C07-4DD6-9760-38DF49A81BE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A825D86A-5C07-4DD6-9760-38DF49A81BE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80F7652A-B531-4AF2-95B7-975B50A49327}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80F7652A-B531-4AF2-95B7-975B50A49327}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80F7652A-B531-4AF2-95B7-975B50A49327}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80F7652A-B531-4AF2-95B7-975B50A49327}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

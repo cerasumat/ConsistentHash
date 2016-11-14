@@ -7,7 +7,7 @@ using System.Security;
 
 namespace ConsistentHash
 {
-	public class Router
+	public class Router	: IRouter
 	{
 		private SortedList<long, VirtualNode> _ring = new SortedList<long, VirtualNode>();
 		private Md5Hash _hashFunc = new Md5Hash();

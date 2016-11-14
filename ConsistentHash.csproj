@@ -40,6 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IRouter.cs" />
     <Compile Include="MD5Hash.cs" />
     <Compile Include="PhysicalNode.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

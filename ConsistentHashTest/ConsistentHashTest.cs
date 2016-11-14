@@ -118,5 +118,18 @@ namespace ConsistentHashTest
 			router.RemoveNode(node3);
 			Assert.IsTrue(router.GetVirtualNodeCount() == 6);
 		}
+
+		[TestMethod]
+		public void TestGetReplicas()
+		{
+			var pNodes = new List<PhysicalNode>();
+			PhysicalNode node1 = new PhysicalNode("SituationAnalysis", "10.202.42.85", 80);
+			PhysicalNode node2 = new PhysicalNode("SituationAnalysis", "10.202.42.86", 80);
+			pNodes.Add(node1);
+			pNodes.Add(node2);
+			var router = new Router(pNodes, 3);
+			Assert.IsTrue(router.GetReplicas("SituationAnalysis:10.202.42.85:80") == 3);
+			Assert.IsTrue(router.GetReplicas("SituationAnalysis:10.202.42.86:80") == 3);
+		}
 	}
 }
